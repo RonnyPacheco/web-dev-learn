@@ -45,9 +45,6 @@ footer {
   color: #154C8A;
 }
 
-.logo {
-  size: 10%;
-}
 
 @media (max-width: 800px) {
   .logo {
