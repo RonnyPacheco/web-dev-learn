@@ -1,0 +1,63 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    height: 650px;
+    border-radius: 50%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 200px);
+    grid-template-columns: repeat(2, 200px);
+    grid-auto-rows: 300px;
+  }
+  
+    .programming-languages {
+      background-color: #00bfff;
+      font-size: 3rem;
+      grid-row: 1 /1 ;
+      grid-column: 1 / 1;
+    }
+  
+    .frameworks {
+      background-color:beige;
+      font-size: 3rem;
+      grid-row: 2 /2 ;
+      grid-column: 1 / 1;
+    }
+  
+    .tools {
+      background-color:#ef8172;
+      font-size: 3rem;
+      grid-row: 3 /3 ;
+      grid-column: 1 / 1;
+    }
+  
+  .container-grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
